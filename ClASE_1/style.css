@@ -1,0 +1,19 @@
+/* Creating a grid with two rows and three columns. The first row has a height of 100px and the second
+row has a height of 200px. The columns have a width of 100px. The gap between the columns is 40px. */
+.contenedor 
+{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    grid-template-rows: 100px 200px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 40px;
+}
+
+/* Styling the items in the grid. */
+.item
+{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
