@@ -1,0 +1,30 @@
+.container
+{
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item{
+    background-color: limegreen;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.item p
+{
+    position: relative;
+    text-align: center;
+    background-color: green;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+}
